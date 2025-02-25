@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box; 
+    /* border box is a property for heigh and width set karne ke liye */
+}
+.navbar{
+    height: 120px; /* Adjusted height */
+    background-color: black;
+    color: white;
+    display: flex; 
+    align-items: center;
+    /* display fles main work all text show in one ROW as diliver to and indid */
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+/* box 2 */
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left:15px;
+}
+.add-second{
+    font-size:1rem;
+    margin-left:3px;
+
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
